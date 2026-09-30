@@ -1,0 +1,58 @@
+{
+  "skill_name": "resumen-corporativo-latam",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Hazme el resumen corporativo de Banco de Chile.",
+      "expected_output": "Un .docx y un .md llamados AAAA_MM_BancodeChile_Resumen_Corporativo, de 17 a 25 páginas, con país Chile, sector Banca y métricas bancarias (ROE, CET1, eficiencia) en lugar de EBITDA o EV/EBITDA.",
+      "files": [],
+      "assertions": [
+        "El nombre de archivo sigue el formato AAAA_MM_BancodeChile_Resumen_Corporativo",
+        "El .docx tiene entre 17 y 25 páginas",
+        "Las secciones usan los estilos nativos Heading 1 y Heading 2",
+        "La portada declara el sector Banca y el país Chile",
+        "No se calcula EV/EBITDA ni Deuda/EBITDA para el banco; se usan métricas bancarias",
+        "La última página es Fuentes y las fuentes están numeradas",
+        "El glosario cabe en una página e incluye EBITDA, EBIT, ROIC, ROE, PER y SMA",
+        "Las cifras calculadas están rotuladas como calculadas"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Necesito el informe corporativo de Walmart de México (WALMEX).",
+      "expected_output": "Informe de una empresa mexicana del sector Retail: fuentes de BMV y CNBV, tiendas por formato y país, cifras en MXN indicando la moneda.",
+      "files": [],
+      "assertions": [
+        "Detecta México como país y la BMV como bolsa sin preguntar al usuario",
+        "Incluye la CNBV como regulador y cita fuentes mexicanas además de las internacionales",
+        "La Sección 3 incluye tiendas por formato y por país",
+        "Las cifras indican moneda (MXN o USD) y fecha",
+        "Aplica EBITDA y Deuda/EBITDA (sector retail) y aclara si incluye arrendamientos NIIF 16"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Resumen corporativo de Ecopetrol",
+      "expected_output": "Informe de una empresa colombiana del sector Energía; debe distinguir la acción local de Colombia del ADR en NYSE y advertir sensibilidad al precio del petróleo.",
+      "files": [],
+      "assertions": [
+        "Detecta Colombia como país y distingue la acción en BVC del ADR en NYSE",
+        "El sector se declara como Energía (petróleo y gas)",
+        "Los riesgos incluyen precio del commodity y regulación",
+        "Toda URL de Fuentes fue efectivamente consultada",
+        "Los datos no encontrados se marcan n/d en lugar de estimarse"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Hazme el resumen de Falabella",
+      "expected_output": "Debe resolver o preguntar la ambigüedad razonable (Falabella S.A., Chile, matriz de Falabella Perú, Colombia y otros) con una sola pregunta si hace falta; si no, informe de Chile, sector Retail, con operaciones en varios países.",
+      "files": [],
+      "assertions": [
+        "Hace como máximo una pregunta de aclaración o decide justificadamente",
+        "Sector Retail con formatos y países listados en la Sección 3",
+        "Declara qué es calculado y qué es reportado"
+      ]
+    }
+  ]
+}

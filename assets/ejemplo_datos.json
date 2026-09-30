@@ -1,0 +1,695 @@
+{
+  "meta": {
+    "empresa": "Comercial Andina de Prueba S.A.",
+    "ticker": "CAPRUEBA",
+    "bolsa": "Bolsa de Santiago",
+    "pais": "Chile",
+    "sector": "Retail",
+    "moneda": "CLP",
+    "fecha": "2026-09-29",
+    "papel": "letter"
+  },
+  "portada": {
+    "aspecto_relevante": "DATOS FICTICIOS — solo para probar el formato del informe",
+    "linea_bolsas": "BCS: CAPRUEBA  ·  IPSA  ·  Grupo Ficticio",
+    "resumen_izq": [
+      {
+        "k": "Acciones totales",
+        "v": "~ 1.200M acc."
+      },
+      {
+        "k": "Cap. Bursátil",
+        "v": "~ USD 3.000M"
+      },
+      {
+        "k": "Bolsas",
+        "v": "BCS (Chile)"
+      },
+      {
+        "k": "Caja libre",
+        "v": "~ USD 250M"
+      },
+      {
+        "k": "Valor de empresa",
+        "v": "~ USD 4.100M"
+      }
+    ],
+    "resumen_der": [
+      {
+        "k": "EBITDA",
+        "v": "~ USD 620M"
+      },
+      {
+        "k": "Patrimonio contable",
+        "v": "~ USD 1.800M"
+      },
+      {
+        "k": "ROIC",
+        "v": "~ 9,5% (calculado)"
+      },
+      {
+        "k": "PER",
+        "v": "~ 14x"
+      },
+      {
+        "k": "SMA 200",
+        "v": "CLP 2.350"
+      }
+    ]
+  },
+  "secciones": [
+    {
+      "titulo": "1. Historia y ADN de la Empresa",
+      "bloques": [
+        {
+          "tipo": "h2",
+          "texto": "1.1 Origen y fundación"
+        },
+        {
+          "tipo": "p",
+          "texto": "**Empresa ficticia** utilizada exclusivamente para verificar el diseño. Fundada en 1950 por un fundador ficticio, comenzó como una tienda familiar y se expandió a nivel regional."
+        },
+        {
+          "tipo": "h2",
+          "texto": "1.2 Hitos históricos clave"
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Año",
+            "Hito",
+            "Relevancia"
+          ],
+          "anchos": [
+            12,
+            55,
+            33
+          ],
+          "filas": [
+            [
+              "1950",
+              "Fundación de la primera tienda",
+              "Origen del negocio"
+            ],
+            [
+              "1994",
+              "Apertura en bolsa",
+              "Acceso a capital"
+            ],
+            [
+              "2008",
+              "Crisis financiera global",
+              "Prueba de resiliencia"
+            ]
+          ]
+        },
+        {
+          "tipo": "h2",
+          "texto": "1.3 Modelo de negocio actual"
+        },
+        {
+          "tipo": "p",
+          "texto": "Opera tiendas físicas y comercio electrónico en dos países. Ingresos por venta de productos y por servicios financieros asociados."
+        },
+        {
+          "tipo": "callout",
+          "color": "dorado",
+          "titulo": "Lo esencial",
+          "texto": "Recuadro destacado de ejemplo con **negrita** y texto de varias líneas para verificar el ajuste dentro de la página."
+        },
+        {
+          "tipo": "nota_didactica",
+          "referencia": "Graham, Inversor inteligente, cap. 11 (Análisis de valores para el inversor defensivo)",
+          "texto": "Graham recomienda evaluar primero la estabilidad de los resultados en el largo plazo antes de mirar el precio."
+        }
+      ]
+    },
+    {
+      "titulo": "2. Estructura de Propiedad",
+      "bloques": [
+        {
+          "tipo": "h2",
+          "texto": "2.1 Top 5 accionistas"
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Accionista",
+            "Participación",
+            "Tipo",
+            "Observación"
+          ],
+          "anchos": [
+            34,
+            14,
+            18,
+            34
+          ],
+          "filas": [
+            [
+              "Holding Ficticio S.A.",
+              "~40%",
+              "Controlador",
+              "Familia fundadora"
+            ],
+            [
+              "AFP Ficticia",
+              "~12%",
+              "Institucional",
+              "Fondos de pensiones"
+            ],
+            [
+              "Fondo Global X",
+              "~6%",
+              "Extranjero",
+              "Inversor institucional"
+            ],
+            [
+              "Corredora Y",
+              "~3%",
+              "Corredora",
+              "Custodia"
+            ],
+            [
+              "Otros",
+              "~39%",
+              "Free float",
+              "Minoristas e institucionales"
+            ]
+          ]
+        },
+        {
+          "tipo": "kv",
+          "filas": [
+            [
+              "Inicio de cotización",
+              "1994"
+            ],
+            [
+              "Bolsas y ticker",
+              "BCS: CAPRUEBA"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "3. Presencia Geográfica y Operaciones",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "País",
+            "Formato",
+            "Locales"
+          ],
+          "anchos": [
+            30,
+            40,
+            30
+          ],
+          "filas": [
+            [
+              "Chile",
+              "Hipermercado",
+              "60"
+            ],
+            [
+              "Chile",
+              "Tienda de barrio",
+              "180"
+            ],
+            [
+              "Perú",
+              "Hipermercado",
+              "25"
+            ]
+          ]
+        },
+        {
+          "tipo": "kv",
+          "filas": [
+            [
+              "Total empleados",
+              "~ 25.000"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "4. Líneas de Negocio y Rentabilidad",
+      "bloques": [
+        {
+          "tipo": "grafico",
+          "id": "ingresos_segmento",
+          "titulo": "Ingresos por segmento",
+          "pie": "Fuente: datos ficticios."
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Segmento",
+            "% ingresos",
+            "Margen",
+            "Tendencia"
+          ],
+          "anchos": [
+            34,
+            18,
+            18,
+            30
+          ],
+          "filas": [
+            [
+              "Supermercados",
+              "60%",
+              "Medio",
+              "▲ Crecimiento"
+            ],
+            [
+              "Servicios financieros",
+              "15%",
+              "Alto",
+              "▲ Crecimiento"
+            ],
+            [
+              "Otros",
+              "25%",
+              "Bajo",
+              "▼ Presión"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "5. Análisis Financiero",
+      "bloques": [
+        {
+          "tipo": "grafico",
+          "id": "financieros",
+          "titulo": "Ingresos, EBITDA y utilidad neta",
+          "pie": "Fuente: datos ficticios."
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Métrica (USD M)",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "anchos": [
+            40,
+            20,
+            20,
+            20
+          ],
+          "filas": [
+            [
+              "Ingresos",
+              "5.000",
+              "5.300",
+              "5.600"
+            ],
+            [
+              "EBITDA",
+              "560",
+              "590",
+              "620"
+            ],
+            [
+              "Utilidad neta",
+              "180",
+              "200",
+              "215"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "6. La Acción",
+      "bloques": [
+        {
+          "tipo": "grafico",
+          "id": "precio",
+          "titulo": "Precio de cierre mensual (CLP)",
+          "pie": "Fuente: datos ficticios."
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Factor",
+            "Dirección",
+            "Impacto",
+            "Explicación"
+          ],
+          "anchos": [
+            24,
+            16,
+            12,
+            48
+          ],
+          "filas": [
+            [
+              "Consumo interno",
+              "▲ Positivo",
+              "Alto",
+              "Más ventas en tiendas"
+            ],
+            [
+              "Tipo de cambio",
+              "▼ Negativo",
+              "Medio",
+              "Costos importados"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "7. Política y Historial de Dividendos",
+      "bloques": [
+        {
+          "tipo": "grafico",
+          "id": "dividendos",
+          "titulo": "Dividendo por acción (CLP)",
+          "pie": "Fuente: datos ficticios."
+        }
+      ]
+    },
+    {
+      "titulo": "8. Análisis de Riesgos",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Riesgo",
+            "Nivel",
+            "Descripción"
+          ],
+          "anchos": [
+            28,
+            14,
+            58
+          ],
+          "colorear_col": 1,
+          "filas": [
+            [
+              "Regulatorio",
+              "Alto",
+              "Cambios de ley pueden afectar márgenes."
+            ],
+            [
+              "Competencia",
+              "Medio-Alto",
+              "Entrada de nuevos actores."
+            ],
+            [
+              "Cambiario",
+              "Medio",
+              "Costos en dólares."
+            ],
+            [
+              "Ciberseguridad",
+              "Bajo-Medio",
+              "Plataformas de comercio electrónico."
+            ],
+            [
+              "Político",
+              "Bajo",
+              "Ciclo electoral."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "9. Noticias y Catalizadores Futuros",
+      "bloques": [
+        {
+          "tipo": "h2",
+          "texto": "9.1 Catalizadores"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "**Noviembre 2026** — Resultados del tercer trimestre.",
+            "Apertura de nuevas tiendas en Perú."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "10. Conclusión del Informe",
+      "bloques": [
+        {
+          "tipo": "lista_numerada",
+          "items": [
+            "**Calidad del negocio:** ejemplo.",
+            "**Balance:** ejemplo.",
+            "**Valoración:** ejemplo."
+          ]
+        },
+        {
+          "tipo": "callout",
+          "color": "rojo",
+          "titulo": "AVISO LEGAL",
+          "texto": "Este informe es informativo y educativo; no constituye recomendación de inversión."
+        }
+      ]
+    }
+  ],
+  "glosario": [
+    {
+      "termino": "EBITDA",
+      "definicion": "Resultado antes de intereses, impuestos, depreciación y amortización.",
+      "formula": "Resultado operacional + depreciación + amortización"
+    },
+    {
+      "termino": "EBIT",
+      "definicion": "Resultado antes de intereses e impuestos; utilidad operacional."
+    },
+    {
+      "termino": "ROIC",
+      "definicion": "Retorno sobre el capital invertido.",
+      "formula": "NOPAT / capital invertido"
+    },
+    {
+      "termino": "ROE",
+      "definicion": "Retorno sobre el patrimonio.",
+      "formula": "Utilidad neta / patrimonio"
+    },
+    {
+      "termino": "PER",
+      "definicion": "Precio sobre utilidad: veces que el mercado paga la utilidad por acción.",
+      "formula": "Precio / utilidad por acción"
+    },
+    {
+      "termino": "SMA",
+      "definicion": "Media móvil simple del precio en un período (p. ej. 200 ruedas)."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Bolsa de Santiago",
+      "url": "https://www.bolsadesantiago.com/",
+      "uso": "Ticker y datos bursátiles",
+      "acceso": "29-09-2026"
+    },
+    {
+      "titulo": "Comisión para el Mercado Financiero",
+      "url": "https://www.cmfchile.cl/portal/principal/623/w4-channel.html",
+      "uso": "Estados financieros",
+      "acceso": "29-09-2026"
+    },
+    {
+      "titulo": "Diario económico de ejemplo (ficticio)",
+      "url": "https://example.com/prensa-1",
+      "uso": "Noticia reciente (ejemplo)",
+      "acceso": "29-09-2026",
+      "complementaria": true,
+      "motivo": "Prensa económica local: contexto de riesgos y catalizadores"
+    },
+    {
+      "titulo": "Segundo medio de ejemplo (ficticio)",
+      "url": "https://example.com/prensa-2",
+      "uso": "Contraste de la noticia (ejemplo)",
+      "acceso": "29-09-2026",
+      "complementaria": true,
+      "motivo": "Prensa económica local: contexto de riesgos y catalizadores"
+    },
+    {
+      "titulo": "Cámara sectorial de ejemplo (ficticia)",
+      "url": "https://example.com/gremio",
+      "uso": "Indicadores del sector (ejemplo)",
+      "acceso": "29-09-2026",
+      "complementaria": true,
+      "motivo": "Gremio sectorial: datos y estudios de la industria"
+    }
+  ],
+  "graficos": [
+    {
+      "id": "ingresos_segmento",
+      "tipo": "dona",
+      "titulo": "Ingresos por segmento",
+      "etiquetas": [
+        "Supermercados",
+        "Servicios financieros",
+        "Otros"
+      ],
+      "valores": [
+        60,
+        15,
+        25
+      ],
+      "centro": "100%"
+    },
+    {
+      "id": "financieros",
+      "tipo": "barras_agrupadas",
+      "titulo": "Ingresos, EBITDA y utilidad neta",
+      "unidad": "USD M",
+      "x": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "nombre": "Ingresos",
+          "valores": [
+            5000,
+            5300,
+            5600
+          ]
+        },
+        {
+          "nombre": "EBITDA",
+          "valores": [
+            560,
+            590,
+            620
+          ]
+        },
+        {
+          "nombre": "Utilidad neta",
+          "valores": [
+            180,
+            200,
+            215
+          ]
+        }
+      ]
+    },
+    {
+      "id": "precio",
+      "tipo": "linea",
+      "titulo": "Precio de cierre mensual (CLP)",
+      "unidad": "CLP",
+      "x": [
+        "2021",
+        "",
+        "",
+        "",
+        "2022",
+        "",
+        "",
+        "",
+        "2023",
+        "",
+        "",
+        "",
+        "2024",
+        "",
+        "",
+        "",
+        "2025",
+        "",
+        "",
+        "",
+        "2026"
+      ],
+      "series": [
+        {
+          "nombre": "Precio",
+          "valores": [
+            1800,
+            1850,
+            1900,
+            1950,
+            2000,
+            2050,
+            2000,
+            2100,
+            2200,
+            2150,
+            2250,
+            2300,
+            2350,
+            2300,
+            2400,
+            2450,
+            2500,
+            2450,
+            2550,
+            2600,
+            2650
+          ]
+        }
+      ],
+      "sma": [
+        1800,
+        1825,
+        1850,
+        1888,
+        1920,
+        1960,
+        1980,
+        2020,
+        2070,
+        2100,
+        2150,
+        2200,
+        2240,
+        2270,
+        2310,
+        2350,
+        2390,
+        2410,
+        2450,
+        2490,
+        2530
+      ],
+      "sma_nombre": "SMA 200"
+    },
+    {
+      "id": "dividendos",
+      "tipo": "barras",
+      "titulo": "Dividendo por acción (CLP)",
+      "unidad": "CLP",
+      "x": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "series": [
+        {
+          "nombre": "DPA",
+          "valores": [
+            40,
+            55,
+            65,
+            70,
+            82
+          ]
+        }
+      ],
+      "destacar": 4
+    }
+  ]
+}

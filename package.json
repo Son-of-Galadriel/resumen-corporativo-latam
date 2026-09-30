@@ -1,0 +1,16 @@
+{
+  "name": "resumen-corporativo-latam",
+  "version": "1.0.0",
+  "description": "Skill para Claude: genera resúmenes corporativos bursátiles de empresas latinoamericanas en .docx y .md",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "ejemplo": "node scripts/render.js assets/ejemplo_datos.json --out ./salida_ejemplo"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
