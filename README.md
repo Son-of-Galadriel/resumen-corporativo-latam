@@ -7,6 +7,11 @@ Skill para Claude que genera un **resumen corporativo bursátil de 17 a 25 pági
 
 Nombre de los archivos: `AAAA_MM_NombreEmpresa_Resumen_Corporativo` (por ejemplo, `2026_09_BancodeChile_Resumen_Corporativo.docx`).
 
+##### Imágenes y tablas del informe:
+<img width="330" height="330" alt="image_1_skill_resumen_corporativo" src="https://github.com/user-attachments/assets/fd455bec-a9f6-4d4d-af58-79720ed10ac3" />
+<img width="330" height="330" alt="image_2_skill_resumen_corporativo" src="https://github.com/user-attachments/assets/a8c3f0ca-0017-4d75-9c0a-8a391f7b2cad" />
+<img width="330" height="330" alt="image_3_skill_resumen_corporativo" src="https://github.com/user-attachments/assets/02d66f0c-a6d1-4bd4-9868-d75a662b4ccf" />
+
 ## Qué hace
 
 1. Identifica la empresa, su país, su bolsa, su regulador y su **sector**.
@@ -62,6 +67,7 @@ evals/evals.json               casos de prueba
 - **Agregar o corregir un país:** edite `references/paises-fuentes.md` (bolsa, regulador, ley) y `references/prensa-y-gremios.md` (prensa económica, gremios y organismos).
 - **Agregar un sector:** edite `references/sectores.md`.
 - **Ajustar el diseño (colores, tipografía):** edite la paleta `C` al inicio de `scripts/render.js`.
+
 
 ## Limitaciones
 
